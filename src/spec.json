@@ -1,0 +1,191 @@
+{
+  "title": "Registro presenze e attività",
+  "description": "Prototipo per registrare e consultare entrate, uscite e attività svolte durante le sessioni di un laboratorio didattico.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo",
+      "description": "Panoramica delle presenze registrate e delle attività del laboratorio.",
+      "metrics": [
+        {
+          "label": "Sessioni registrate",
+          "value": "18"
+        },
+        {
+          "label": "Presenze odierne",
+          "value": "12"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "9"
+        },
+        {
+          "label": "Attività annotate",
+          "value": "16"
+        }
+      ],
+      "columns": [
+        "Data",
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "12/05/2026",
+          "Lumo — argilla",
+          "Nubi",
+          "09:05",
+          "10:20",
+          "Modellazione"
+        ],
+        [
+          "12/05/2026",
+          "Vela — colore",
+          "Timo",
+          "10:30",
+          "11:45",
+          "Campiture"
+        ],
+        [
+          "11/05/2026",
+          "Nubi — carta",
+          "Lumo",
+          "09:10",
+          "10:15",
+          "Piegatura"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra le registrazioni per data, sessione e partecipante.",
+      "metrics": [],
+      "columns": [
+        "Data",
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "12/05/2026",
+          "Lumo — argilla",
+          "Nubi",
+          "09:05",
+          "10:20",
+          "Modellazione"
+        ],
+        [
+          "12/05/2026",
+          "Vela — colore",
+          "Timo",
+          "10:30",
+          "11:45",
+          "Campiture"
+        ],
+        [
+          "11/05/2026",
+          "Nubi — carta",
+          "Lumo",
+          "09:10",
+          "10:15",
+          "Piegatura"
+        ],
+        [
+          "11/05/2026",
+          "Lumo — argilla",
+          "Vela",
+          "09:00",
+          "10:10",
+          "Forme"
+        ],
+        [
+          "10/05/2026",
+          "Vela — colore",
+          "Nubi",
+          "10:25",
+          "11:40",
+          "Miscelazione"
+        ]
+      ],
+      "form": [
+        "Data",
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    },
+    {
+      "id": "nuova-registrazione",
+      "title": "Nuova registrazione",
+      "description": "Inserisci una presenza e annota gli orari e l'attività svolta.",
+      "metrics": [],
+      "columns": [
+        "Data",
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ],
+      "rows": [],
+      "form": [
+        "Data",
+        "Sessione",
+        "Partecipante",
+        "Entrata",
+        "Uscita",
+        "Attività"
+      ]
+    },
+    {
+      "id": "sessioni",
+      "title": "Sessioni",
+      "description": "Consulta le sessioni didattiche e le attività previste.",
+      "metrics": [],
+      "columns": [
+        "Data",
+        "Sessione",
+        "Attività prevista",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "12/05/2026",
+          "Lumo — argilla",
+          "Modellazione",
+          "6"
+        ],
+        [
+          "12/05/2026",
+          "Vela — colore",
+          "Campiture",
+          "4"
+        ],
+        [
+          "11/05/2026",
+          "Nubi — carta",
+          "Piegatura",
+          "5"
+        ],
+        [
+          "10/05/2026",
+          "Timo — segni",
+          "Tracciati",
+          "3"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
